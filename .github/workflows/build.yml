@@ -12,9 +12,13 @@ jobs:
         sudo apt update
         sudo apt install nodejs
         sudo apt install npm
-        npm install
+        node -v
+        npm -v
+        #npm install
     - name: Hexo Generate
       run: |
+        sudo npm cache clean --force
+        npm install -f
         hexo g
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

@@ -1,28 +1,24 @@
-on: [push]
+name: Build
+
+on: push
 
 jobs:
-  build-and-deploy:
-    name: Build and Deploy
+  build:
+    name: Build
     runs-on: ubuntu-latest
-    environment: production
+    
     steps:
-    - uses: actions/checkout@v2
-    - name: Install node
-      run: |
-        sudo apt update
-        sudo apt install nodejs
-        sudo apt install npm
-        node -v
-        npm -v
-        #npm install
-    - name: Hexo Generate
-      run: |
-        sudo npm cache clean --force
-        npm install -f
-        hexo g
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: NPM install and build
+        run: |
+          sudo npm install -g hexo-cli
+          npm install
+          hexo generate
+      
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

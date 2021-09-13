@@ -16,7 +16,7 @@ jobs:
       - name: NPM install and build
         run: |
           sudo npm install -g hexo-cli
-          npm install
+          # npm install
           hexo generate
       
       - name: Deploy

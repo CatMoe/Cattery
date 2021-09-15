@@ -412,7 +412,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/main.jpg
+  banner_img: https://acg.toubiec.cn/random.php
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -458,7 +458,7 @@ index:
   # 自动截取文章摘要
   # Auto extract post
   auto_excerpt:
-    enable: true
+    enable: false
 
   # 打开文章的标签方式
   # The browser tag to open the post
@@ -484,13 +484,13 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
-  default_index_img:
+  default_index_img: 
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -775,7 +775,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -787,7 +787,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -817,7 +817,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -835,7 +835,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/main.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -856,7 +856,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -867,7 +867,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/main.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
@@ -879,7 +879,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://acg.toubiec.cn/random.php
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:

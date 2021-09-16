@@ -193,7 +193,7 @@
     "normalize-path" "~3.0.0"
     "readdirp" "~3.6.0"
   optionalDependencies:
-    "fsevents" "~2.3.2"
+    "fsevents" "*"
 
 "color-convert@^2.0.1":
   "integrity" "sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM="
@@ -632,6 +632,14 @@
   dependencies:
     "hexo-pagination" "1.0.0"
 
+"hexo-generator-feed@^3.0.0":
+  "integrity" "sha1-QSbvXjCCZMQlmfsO/a+I7RH6WZ4="
+  "resolved" "https://registry.npm.taobao.org/hexo-generator-feed/download/hexo-generator-feed-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "hexo-util" "^2.1.0"
+    "nunjucks" "^3.0.0"
+
 "hexo-generator-index@^2.0.0":
   "integrity" "sha1-FecfTSjunSFy4td+jR26BIgu3I8="
   "resolved" "https://registry.npm.taobao.org/hexo-generator-index/download/hexo-generator-index-2.0.0.tgz"
@@ -639,6 +647,15 @@
   dependencies:
     "hexo-pagination" "1.0.0"
     "timsort" "^0.3.0"
+
+"hexo-generator-sitemap@^2.1.0":
+  "integrity" "sha1-79k4BJ3b+alhoHf8xZR5GLpbITo="
+  "resolved" "https://registry.npm.taobao.org/hexo-generator-sitemap/download/hexo-generator-sitemap-2.1.0.tgz"
+  "version" "2.1.0"
+  dependencies:
+    "hexo-util" "^2.1.0"
+    "micromatch" "^4.0.2"
+    "nunjucks" "^3.1.6"
 
 "hexo-generator-tag@^1.0.0":
   "integrity" "sha1-VOwj3pQJx1WE6oHjYFelkDGwIvE="
@@ -715,7 +732,7 @@
   "resolved" "https://registry.npm.taobao.org/hexo-theme-landscape/download/hexo-theme-landscape-0.0.3.tgz"
   "version" "0.0.3"
 
-"hexo-util@^2.0.0", "hexo-util@^2.4.0", "hexo-util@^2.5.0":
+"hexo-util@^2.0.0", "hexo-util@^2.1.0", "hexo-util@^2.4.0", "hexo-util@^2.5.0":
   "integrity" "sha1-3lY1NBEWuiVjp4mg6861WodSIa0="
   "resolved" "https://registry.nlark.com/hexo-util/download/hexo-util-2.5.0.tgz"
   "version" "2.5.0"
@@ -1093,7 +1110,7 @@
   "resolved" "https://registry.nlark.com/normalize-path/download/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.0.0", "nunjucks@^3.2.1":
+"nunjucks@^3.0.0", "nunjucks@^3.1.6", "nunjucks@^3.2.1":
   "integrity" "sha1-GzNhUkcpDpTigmO12FXs52VkijE="
   "resolved" "https://registry.nlark.com/nunjucks/download/nunjucks-3.2.3.tgz"
   "version" "3.2.3"

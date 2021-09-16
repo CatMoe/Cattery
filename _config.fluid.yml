@@ -628,7 +628,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: gitalk
+    type: utterances
 
 
 #---------------------------
@@ -644,8 +644,8 @@ post:
 # Based on GitHub Issues
 # See: https://utteranc.es
 utterances:
-  repo:
-  issue_term: pathname
+  repo: CatMoe/Cattery
+  issue_term: title
   label: utterances
   theme: github-light
   theme_dark: github-dark
@@ -668,8 +668,8 @@ disqus:
 # Based on GitHub Issues
 # See: https://github.com/gitalk/gitalk#options
 gitalk:
-  clientID: 36ff23e0d10dbc537179
-  clientSecret: 0793bb3b4cc0e9c6116a9db21d32341e37032611
+  clientID: 
+  clientSecret: 
   repo: Cattery
   owner: CatMoe
   admin: ['CatMoe']

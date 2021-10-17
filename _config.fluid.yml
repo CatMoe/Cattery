@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/avatar.png
+favicon: /img/avatar.jpg
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/avatar.png
+apple_touch_icon: /img/avatar.jpg
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -431,7 +431,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "我潜过岁月长河,睁眼已成烂柯\n我横跨凡尘细沙,转眼往事已矣\n遗尘漫步者执棋,庇佑众生,邪魔无奈\n野心勃勃者执棋,只手遮天,王权旁落\n阴私狡诈者执棋,红龙俯首,恶念燎原\n传奇虚名,粪土万金\n闲子已落,下步谁行\n庸人碌碌痴愚盲从为子,能者清明勘破迷雾执棋\n"
+    text: "总会有地上是生灵，敢于直面雷霆的威光。"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -839,7 +839,7 @@ about:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
-  avatar: /img/avatar.png
+  avatar: /img/avatar.jpg
   name: "CatMoe"
   intro: "执棋者"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
@@ -895,7 +895,7 @@ links:
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
-  onerror_avatar: /img/avatar.png
+  onerror_avatar: /img/avatar.jpg
 
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links

@@ -107,3 +107,7 @@ deploy:
 
 sitemap:
     path: sitemap.xml
+
+marked:
+  prependRoot: true
+  postAsset: true

@@ -1,4 +1,4 @@
-baseURL = 'http://catmoe.pages.dev/'
+baseURL = 'https://catmoe.pages.dev/'
 languageCode = 'zh-CN'
 title = 'Cattery'
 theme = "kagome"

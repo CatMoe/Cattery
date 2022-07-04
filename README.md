@@ -1,2 +1,1 @@
-# Luminie
-MineStom server 
+![](https://catmoe.pages.dev/image/404.png)
